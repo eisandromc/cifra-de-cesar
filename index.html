@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criptografia de César - Aula prática</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Criptografia de César</h1>
+        <p>A Criptografia de César, também conhecida como Cifra de César, é uma das técnicas de criptografia mais simples e antigas. Ela foi usada por Júlio César para proteger mensagens militares.</p>
+        <p>A ideia básica é deslocar cada letra do texto original (texto claro) um certo número fixo de posições no alfabeto.</p>
+        <div class="form">
+            <label for="">Mensagem</label>
+            <textarea name="" id="txaMensagem" value=""></textarea>
+            <label for="">Cifragem</label>
+            <input type="number" name="" id="txtCifragem" value="">
+            <hr>
+            <button id="btnCriptografar" >Criptografar Mensagem</button>
+            <button id="btnDescriptografar">Descriptografar Mensagem</button>
+            <button id="btnLimpar">Limpar Mensagem</button>
+            <hr>
+        </div>
+        <h1>Resultado</h1>
+        <h3 id="resultado"></h3>
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
